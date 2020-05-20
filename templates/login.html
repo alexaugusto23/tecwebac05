@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="imagem/png" href="/static/img/log.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Login</title>
+    <style>
+        .row {height: 50em;}
+        .coluna {display: flex; 
+                align-items: center;
+                justify-content: center;}
+        /* #id_email{font-size: 2em;} */
+
+    </style>
+  </head>
+  <body>
+      <div class="container">
+          <div class="row">  <!-- linha -->
+            <div class ="col-12 col-md-6  bg-primary coluna">
+                <img src="/static/img/html5_css3.png" alt="logo"height="200">
+            </div>
+            <div class ="col-12 col-md-6 bg-light coluna">
+                <form action="http://juliom6.pythonanywhere.com/contato" method="POST" class="text-center">
+                    <h1 class="h3 m-3-p-1" color:white;>Logar</h1>
+                    <label for="id_email" class="sr-only">Email</label>
+                    <input class="form-control m-2" type="email" id="id_email" placeholder="Insira seu email" required autofocus name="email">
+                    <label for="id_senha" class="sr-only">Senha</label>
+                    <input class="form-control m-2" type="senha" id="id_senha" placeholder="Insira sua senha" required autofocus name="senha">
+                    <button type="submit" class="btn btn-dark">Fazer Login</button>
+                </form>
+                 
+            </div>
+
+
+          </div>
+      </div>
+      <!-- <h1>Hello, world!</h1>  -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
